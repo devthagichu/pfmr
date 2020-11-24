@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <title>PFMR</title>
+  </head>
+  <body>
+    <section>
+      <nav class="nav bg-light">
+        <div
+          class="container d-flex justify-content-between align-items-center flex-wrap"
+        >
+          <a class="nav-link" href="#">select language</a>
+          {{page.topnav}}
+          <nav class="nav">
+            <a class="nav-link" href="#">Staff Mail</a>
+            <a class="nav-link" href="#">Careers</a>
+            <div
+              class="social-media-icons d-flex justify-content-between align-items-center flex-wrap text-primary"
+            >
+              <i
+                class="ml-2 fa-lg fa fa-facebook-official"
+                aria-hidden="true"
+              ></i>
+              <i class="ml-2 fa-lg fa fa-twitter-square" aria-hidden="true"></i>
+              <i class="ml-2 fa-lg fa fa-youtube-play" aria-hidden="true"></i>
+              <i class="ml-2 fa-lg fa fa-instagram" aria-hidden="true"></i>
+              <i class="ml-2 fa-lg fa fa-whatsapp" aria-hidden="true"></i>
+            </div>
+          </nav>
+        </div>
+      </nav>
+    </section>
+
+    <section class="sticky-top">
+      <div class="sticky-top bg-white">
+        <div class="container">
+          {{page.header}}
+          <img src="./assets/logo.png" alt="logo" height="90px" />
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-0">
+        {{page.menu}}
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  About PMFR
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Information & Services </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resource Centre </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Media Centre </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us </a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <!-- <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              /> -->
+              <button
+                class="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                <i class="fa fa-search text-white" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section>
+      <div class="hero-bg">
+        {{page.hero}}
+        <div
+          class="bg-primary hero-content d-flex justify-content-center align-items-center"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h1 class="text-white">
+                  Strengthening Governance For Enabling Service Delivery And
+                  Economic Development Through Public Financial Management
+                  Reforms(PFMR)
+                </h1>
+              </div>
+              <div class="col-md-6"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="floating-icons d-flex flex-wrap container justify-content-between pt-2"
+      >
+        {{page.floatingicons}}
+        <div>
+          <p>ICON</p>
+          <h5 class="mt-4">GESDek</h5>
+        </div>
+        <div>
+          <p>ICON</p>
+          <h5 class="mt-4">GESDek</h5>
+        </div>
+        <div>
+          <p>ICON</p>
+          <h5 class="mt-4">GESDek</h5>
+        </div>
+        <div>
+          <p>ICON</p>
+          <h5 class="mt-4">GESDek</h5>
+        </div>
+        <div>
+          <p>ICON</p>
+          <h5 class="mt-4">GESDek</h5>
+        </div>
+        <div>
+          <p>ICON</p>
+          <h5 class="mt-4">GESDek</h5>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h5 class="mt-4 mb-4 font-weight-bolder text-primary">About</h5>
+
+        <div class="row">
+          <div class="col-md-6">
+            {{page.welcome}}
+            <img src="./assets/about.png" alt="" width="100%" />
+            <h5 class="mt-4 mb-4 font-weight-bolder text-primary">
+              Welcome to PFMR Secretariat
+            </h5>
+            <p>
+              The PFMR Secretariat is a reform Programme that aims to strengthen
+              public financial management systems for enhanced transparency,
+              accountability, equity, fiscal discipline and efficiency in the
+              management and use of public resources for improved service
+              delivery and economic development.
+            </p>
+          </div>
+          <div class="col-md-6">
+            {{page.visionmission}}
+            <div class="card bg-primary rounded-0">
+              <div class="card-body text-white">
+                <h5 class="mt-4 mb-4 font-weight-bolder">VISON</h5>
+                <p>
+                  A public finance management system that is efficient,
+                  effective and equitable for transparency, accountability and
+                  improved service delivery.
+                </p>
+              </div>
+            </div>
+            <div class="card bg-primary mt-4 rounded-0">
+              <div class="card-body text-white">
+                <h5 class="mt-4 mb-4 font-weight-bolder">MISSION</h5>
+                <p>
+                  To coordinate funding and implementation of PFM Reforms
+                  through comprehensive action planning, work planning,
+                  reporting and effective and efficient monitoring and
+                  evaluation at National and County levels of Government.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section bg-light">
+      <div class="container">
+        <h5 class="mt-4 mb-4 font-weight-bolder text-primary">
+          Our Programmes
+        </h5>
+        <div class="row pt-4">
+          {{page.programmes}}
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h5 class="mt-4 mb-4 font-weight-bolder text-primary">News</h5>
+            <div class="row">
+              {{page.featurednews}}
+              <div class="col-md-6 d-flex align-items-center">
+                <div class="news-image">
+                  <img src="./assets/news-1.png" alt="news" />
+                </div>
+                <div class="p-4">
+                  <h5>Curabitur aliquet quam id...</h5>
+                  <p>
+                    Curabitur aliquet quam id dui posuere blandit. Vestibulum ac
+                    diam sit ame...
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-center">
+                <div class="news-image">
+                  <img src="./assets/news-1.png" alt="news" />
+                </div>
+                <div class="p-4">
+                  <h5>Curabitur aliquet quam id...</h5>
+                  <p>
+                    Curabitur aliquet quam id dui posuere blandit. Vestibulum ac
+                    diam sit ame...
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-center">
+                <div class="news-image">
+                  <img src="./assets/news-1.png" alt="news" />
+                </div>
+                <div class="p-4">
+                  <h5>Curabitur aliquet quam id...</h5>
+                  <p>
+                    Curabitur aliquet quam id dui posuere blandit. Vestibulum ac
+                    diam sit ame...
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-center">
+                <div class="news-image">
+                  <img src="./assets/news-1.png" alt="news" />
+                </div>
+                <div class="p-4">
+                  <h5>Curabitur aliquet quam id...</h5>
+                  <p>
+                    Curabitur aliquet quam id dui posuere blandit. Vestibulum ac
+                    diam sit ame...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h5 class="mt-4 mb-4 font-weight-bolder text-primary">Events</h5>
+            {{page.featuredevents}}
+            <div class="d-flex mt-2">
+              <div
+                class="card bg-primary rounded-0 text-white p-4 font-weight-bolder text-center"
+              >
+                <span>Nov</span>
+                <span class="font-weight-bolder">23</span>
+              </div>
+              <div class="event-content pl-4">
+                <h5>Event Title goes here</h5>
+                <p class="event-location text-primary">Location is here</p>
+              </div>
+            </div>
+            <div class="d-flex mt-2">
+              <div
+                class="card bg-primary rounded-0 text-white p-4 font-weight-bolder text-center"
+              >
+                <span>Nov</span>
+                <span class="font-weight-bolder">23</span>
+              </div>
+              <div class="event-content pl-4">
+                <h5>Event Title goes here</h5>
+                <p class="event-location text-primary">Location is here</p>
+              </div>
+            </div>
+            <div class="d-flex mt-2">
+              <div
+                class="card bg-primary rounded-0 text-white p-4 font-weight-bolder text-center"
+              >
+                <span>Nov</span>
+                <span class="font-weight-bolder">23</span>
+              </div>
+              <div class="event-content pl-4">
+                <h5>Event Title goes here</h5>
+                <p class="event-location text-primary">Location is here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section bg-light">
+      <div class="container">
+        <h5 class="mt-4 mb-4 font-weight-bolder text-primary">
+          Our Stakeholders
+        </h5>
+        <div class="row">
+          {{page.stakeholders}}
+          <div class="col-md-4">
+            <a href="#"> Internal Audit Department (IAD)</a>
+          </div>
+          <div class="col-md-4">
+            <a href="#"> Internal Audit Department (IAD)</a>
+          </div>
+          <div class="col-md-4">
+            <a href="#"> Internal Audit Department (IAD)</a>
+          </div>
+          <div class="col-md-4">
+            <a href="#"> Internal Audit Department (IAD)</a>
+          </div>
+          <div class="col-md-4">
+            <a href="#"> Internal Audit Department (IAD)</a>
+          </div>
+          <div class="col-md-4">
+            <a href="#"> Internal Audit Department (IAD)</a>
+          </div>
+          <div class="col-md-4">
+            <a href="#"> Internal Audit Department (IAD)</a>
+          </div>
+          <div class="col-md-4">
+            <a href="#"> Internal Audit Department (IAD)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section bg-primary text-white">
+      {{page.footer}}
+      <div
+        class="container d-flex justify-content-between align-items-center flex-wrap"
+      >
+        {{page.copyright}}
+        <p>
+          Copyright © 2020. Public Financial Management Reforms Secretariat.
+        </p>
+        <div class="d-flex align-items-center">
+          {{page.termsandconditions}}
+          <p>
+            <a href="#" class="text-decoration-none text-white"
+              >Privacy Policies</a
+            >
+            |
+            <a href="#" class="text-decoration-none text-white"
+              >Terms of Use
+            </a>
+          </p>
+          <img src="./assets/footer_logo.png" alt="" height="60px" />
+        </div>
+      </div>
+    </section>
+
+ 
+  </body>
+</html>

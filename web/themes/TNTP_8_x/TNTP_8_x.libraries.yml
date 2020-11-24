@@ -1,0 +1,13 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      assets/css/main.css: {}
+
+global-js:
+  version: VERSION
+  js:
+    assets/js/main.js: {}
+    assets/js/jquery.js: {}
+    assets/js/popper.js: {}
+    assets/js/popper-utils.js: {}

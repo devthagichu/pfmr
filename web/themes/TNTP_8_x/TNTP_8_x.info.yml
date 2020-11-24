@@ -1,0 +1,25 @@
+name: TNTP_8_x
+type: theme
+description: "TNTP_8_x is a custom theme developed by Thagichu Anthony"
+core_version_requirement: ^8.8 || ^9
+base theme: stable
+libraries:
+  - TNTP_8_x/global-styling
+  - TNTP_8_x/global-js
+
+regions:
+  topnav: Top Navigation
+  header: Header Area
+  menu: Main Menu
+  hero: Main Hero
+  floatingicons: floating Icons Area
+  content: Content
+  welcome: Welcome
+  visionmission: vision Mission Area
+  programmes: Programmes Area
+  featurednews: News Area
+  featuredevents: Events Area
+  stakeholders: Stakeholders Area
+  footer: Footer
+  copyright: copyright
+  termsandconditions: Terms and Conditions
