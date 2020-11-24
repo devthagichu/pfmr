@@ -1,0 +1,22 @@
+uuid: fbfc185a-897e-4963-961d-0779da7952f0
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - TNTP_8_x
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: TNTP_8_x_messages
+theme: TNTP_8_x
+region: topnav
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 0a43272b-7053-47ef-b7b9-3a82fffa041b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.stakeholders
+  module:
+    - text
+id: node.stakeholders.body
+field_name: body
+entity_type: node
+bundle: stakeholders
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

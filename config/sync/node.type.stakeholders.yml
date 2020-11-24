@@ -1,0 +1,17 @@
+uuid: b91c6c40-9b4b-496e-a04f-c1e62927a240
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Stakeholders
+type: stakeholders
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

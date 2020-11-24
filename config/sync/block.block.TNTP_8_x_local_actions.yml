@@ -1,0 +1,20 @@
+uuid: 2dbcec4f-4bd4-4259-bf32-eec94f8f71e5
+langcode: en
+status: false
+dependencies:
+  theme:
+    - TNTP_8_x
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: TNTP_8_x_local_actions
+theme: TNTP_8_x
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

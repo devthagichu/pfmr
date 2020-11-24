@@ -1,0 +1,22 @@
+uuid: 30ac3397-50a5-444c-ad25-e87e1f2e530a
+langcode: en
+status: false
+dependencies:
+  theme:
+    - TNTP_8_x
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: TNTP_8_x_local_tasks
+theme: TNTP_8_x
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

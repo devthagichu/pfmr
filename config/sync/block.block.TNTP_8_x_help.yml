@@ -1,0 +1,22 @@
+uuid: b374c5b3-2243-4699-9c6f-93bbcb3eec45
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - TNTP_8_x
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: TNTP_8_x_help
+theme: TNTP_8_x
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

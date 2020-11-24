@@ -1,0 +1,24 @@
+uuid: 77a07461-e282-4b71-99ec-3387107a6df2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.programme_view
+  module:
+    - views
+  theme:
+    - TNTP_8_x
+id: views_block__programme_view_block_1
+theme: TNTP_8_x
+region: programmes
+weight: 0
+provider: null
+plugin: 'views_block:programme_view-block_1'
+settings:
+  id: 'views_block:programme_view-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

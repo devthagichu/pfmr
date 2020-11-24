@@ -1,0 +1,17 @@
+uuid: 9b589566-f99b-4eb8-ac60-d475d9865304
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: About
+type: about
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

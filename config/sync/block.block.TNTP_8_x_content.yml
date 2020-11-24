@@ -1,0 +1,22 @@
+uuid: 6f6886cf-2f38-46d1-bc77-f71066e41ab9
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - TNTP_8_x
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: TNTP_8_x_content
+theme: TNTP_8_x
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

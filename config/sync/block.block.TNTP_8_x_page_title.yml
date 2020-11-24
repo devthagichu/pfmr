@@ -1,0 +1,20 @@
+uuid: 0db89b26-ce39-4ab9-85fa-809da93555ab
+langcode: en
+status: false
+dependencies:
+  theme:
+    - TNTP_8_x
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: TNTP_8_x_page_title
+theme: TNTP_8_x
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
