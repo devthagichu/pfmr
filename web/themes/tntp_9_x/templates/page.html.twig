@@ -17,7 +17,6 @@
     <title>PFMR</title>
   </head>
   <body>
-  {% if page.topnav %}
     <section>
       <nav class="nav bg-light">
         <div
@@ -43,8 +42,7 @@
         </div>
       </nav>
     </section>
- {% endif %}
-   {% if page.menu %}
+
     <section class="sticky-top">
       <div class="sticky-top bg-white">
         <div class="container">
@@ -85,8 +83,6 @@
         </div>
       </nav>
     </section>
-     {% endif %}
-   {% if page.hero %}
     <section>
       <div class="hero-bg">
         {{page.hero}}
@@ -180,12 +176,8 @@
       <div
         class="floating-icons d-flex flex-wrap container justify-content-between pt-2"
       >
-      {% if page.floatingicons %}
         {{page.floatingicons}}
-        {% endif %}
     </section>
-       {% endif %}
-   {% if page.welcome or page.visionmission %}
 <section class="section">
     </section>
 
@@ -202,8 +194,6 @@
         </div>
       </div>
     </section>
-     {% endif %}
-     {% if page.programmes %}
     <section class="section bg-light">
       <div class="container">
         <h5 class="mt-4 mb-4 font-weight-bolder text-primary">
@@ -214,8 +204,7 @@
         </div>
       </div>
     </section>
-{% endif %}
-{% if page.featurednews or page.featuredevents %}
+
     <section class="section">
       <div class="container">
         <div class="row">
@@ -228,12 +217,46 @@
           <div class="col-md-4">
             <h5 class="mt-4 mb-4 font-weight-bolder text-primary">Events</h5>
             {{page.featuredevents}}
+            <div class="d-flex mt-2">
+              <div
+                class="card bg-primary rounded-0 text-white p-4 font-weight-bolder text-center"
+              >
+                <span>Nov</span>
+                <span class="font-weight-bolder">23</span>
+              </div>
+              <div class="event-content pl-4">
+                <h5>Event Title goes here</h5>
+                <p class="event-location text-primary">Location is here</p>
+              </div>
+            </div>
+            <div class="d-flex mt-2">
+              <div
+                class="card bg-primary rounded-0 text-white p-4 font-weight-bolder text-center"
+              >
+                <span>Nov</span>
+                <span class="font-weight-bolder">23</span>
+              </div>
+              <div class="event-content pl-4">
+                <h5>Event Title goes here</h5>
+                <p class="event-location text-primary">Location is here</p>
+              </div>
+            </div>
+            <div class="d-flex mt-2">
+              <div
+                class="card bg-primary rounded-0 text-white p-4 font-weight-bolder text-center"
+              >
+                <span>Nov</span>
+                <span class="font-weight-bolder">23</span>
+              </div>
+              <div class="event-content pl-4">
+                <h5>Event Title goes here</h5>
+                <p class="event-location text-primary">Location is here</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    {% endif %}
-    {% if page.stakeholders %}
     <section class="section bg-light">
       <div class="container">
         <h5 class="mt-4 mb-4 font-weight-bolder text-primary">
@@ -244,8 +267,6 @@
         </div>
       </div>
     </section>
-    {% endif %}
-    {% if page.footer or page.copyright or page.termsandconditions %}
     <section class="section bg-primary text-white">
       {{page.footer}}
       <div
@@ -270,7 +291,6 @@
         </div>
       </div>
     </section>
-    {% endif %}
 
  
   </body>
