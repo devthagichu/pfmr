@@ -12,6 +12,7 @@ regions:
   header: Header Area
   menu: Main Menu
   hero: Main Hero
+  slider: Main Slider
   floatingicons: floating Icons Area
   content: Content
   welcome: Welcome

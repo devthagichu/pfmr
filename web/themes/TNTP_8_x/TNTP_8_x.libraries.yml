@@ -7,7 +7,9 @@ global-styling:
 global-js:
   version: VERSION
   js:
+    assets/js/jquery-3.2.1.slim.min.js: {}
+    assets/js/popper.js: {}
+    assets/js/bootstrap.min.js: {}
+    assets/js/popper-utils.js: {}
     assets/js/main.js: {}
     assets/js/jquery.js: {}
-    assets/js/popper.js: {}
-    assets/js/popper-utils.js: {}
