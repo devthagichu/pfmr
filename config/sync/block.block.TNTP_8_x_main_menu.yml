@@ -1,6 +1,6 @@
 uuid: 21b52068-2b4e-4fd9-81f3-b007a42e5103
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.main
@@ -12,8 +12,8 @@ _core:
   default_config_hash: ChCx7DYNUrPTt5uiRdQAPDKJQMc-_SyAQTrZh8H0o-c
 id: TNTP_8_x_main_menu
 theme: TNTP_8_x
-region: topnav
-weight: 0
+region: menu
+weight: -9
 provider: null
 plugin: 'system_menu_block:main'
 settings:

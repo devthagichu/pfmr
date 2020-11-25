@@ -1,11 +1,11 @@
 uuid: 3503965b-268f-4ff6-906e-66a36b2e5d11
-name: PFMR
+name: .
 mail: athagichu@abnosoftwares.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

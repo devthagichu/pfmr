@@ -1,18 +1,16 @@
-uuid: dc1a559d-23c7-48cc-8678-d214396f0e46
+uuid: 737008b3-e593-4705-a93f-9bd47185764e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image
-    - field.storage.node.field_link
-    - node.type.programmes
+    - field.storage.node.body
+    - node.type.vision
   module:
-    - image
-    - link
     - node
+    - text
     - user
-id: programme_view
-label: Programme_view
+id: visionmission_view
+label: visionmission_view
 module: views
 description: ''
 tag: ''
@@ -53,29 +51,21 @@ display:
       pager:
         type: some
         options:
-          items_per_page: 8
+          items_per_page: 2
           offset: 0
       style:
-        type: html_list
+        type: default
         options:
           grouping: {  }
-          row_class: 'col-md-3 programmes list-unstyled mb-4'
+          row_class: 'card bg-primary rounded-0 card-body text-white mb-4'
           default_row_class: true
-          type: ul
-          wrapper_class: mt-4
-          class: row
       row:
         type: fields
-        options:
-          default_field_elements: true
-          inline: {  }
-          separator: ''
-          hide_empty: false
       fields:
-        field_image:
-          id: field_image
-          table: node__field_image
-          field: field_image
+        title:
+          id: title
+          table: node_field_data
+          field: title
           relationship: none
           group_type: group
           admin_label: ''
@@ -108,24 +98,23 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: ''
-          element_class: programmes
+          element_type: h5
+          element_class: 'mt-4 mb-4 font-weight-bolder'
           element_label_type: ''
-          element_label_class: img-fluid
+          element_label_class: 'mt-4 mb-4 font-weight-bolder'
           element_label_colon: false
           element_wrapper_type: ''
-          element_wrapper_class: img-fluid
+          element_wrapper_class: ''
           element_default_classes: true
           empty: ''
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          click_sort_column: target_id
-          type: image
+          click_sort_column: value
+          type: string
           settings:
-            image_style: ''
-            image_link: ''
-          group_column: ''
+            link_to_entity: false
+          group_column: value
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -136,10 +125,10 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_link:
-          id: field_link
-          table: node__field_link
-          field: field_link
+        body:
+          id: body
+          table: node__body
+          field: body
           relationship: none
           group_type: group
           admin_label: ''
@@ -184,15 +173,10 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          click_sort_column: uri
-          type: link
-          settings:
-            trim_length: 80
-            url_only: false
-            url_plain: false
-            rel: '0'
-            target: '0'
-          group_column: ''
+          click_sort_column: value
+          type: text_default
+          settings: {  }
+          group_column: value
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -222,7 +206,7 @@ display:
           table: node_field_data
           field: type
           value:
-            programmes: programmes
+            vision: vision
           entity_type: node
           entity_field: type
           plugin_id: bundle
@@ -245,7 +229,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Programme_view
+      title: visionmission_view
       header: {  }
       footer: {  }
       empty: {  }
@@ -260,8 +244,7 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_image'
-        - 'config:field.storage.node.field_link'
+        - 'config:field.storage.node.body'
   block_1:
     display_plugin: block
     id: block_1
@@ -277,5 +260,4 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_image'
-        - 'config:field.storage.node.field_link'
+        - 'config:field.storage.node.body'

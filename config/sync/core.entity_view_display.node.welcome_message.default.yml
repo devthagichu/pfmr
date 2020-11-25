@@ -1,0 +1,39 @@
+uuid: 96487eed-3a89-4f96-acee-624c6dc918cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.welcome_message.body
+    - field.field.node.welcome_message.field_image
+    - node.type.welcome_message
+  module:
+    - image
+    - text
+    - user
+id: node.welcome_message.default
+targetEntityType: node
+bundle: welcome_message
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

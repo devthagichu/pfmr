@@ -9,7 +9,7 @@ _core:
 id: TNTP_8_x_local_tasks
 theme: TNTP_8_x
 region: content
-weight: -40
+weight: -6
 provider: null
 plugin: local_tasks_block
 settings:

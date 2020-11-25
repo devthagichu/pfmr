@@ -11,7 +11,7 @@ _core:
 id: TNTP_8_x_messages
 theme: TNTP_8_x
 region: topnav
-weight: 0
+weight: -7
 provider: null
 plugin: system_messages_block
 settings:

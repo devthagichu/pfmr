@@ -1,0 +1,17 @@
+uuid: 149f91fb-6a6f-466a-9708-ca383c9330a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: VisionMission
+type: vision
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

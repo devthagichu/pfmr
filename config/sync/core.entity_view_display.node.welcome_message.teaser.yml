@@ -1,0 +1,32 @@
+uuid: df01b714-1c70-4246-9de6-358ea635df0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.welcome_message.body
+    - field.field.node.welcome_message.field_image
+    - node.type.welcome_message
+  module:
+    - text
+    - user
+id: node.welcome_message.teaser
+targetEntityType: node
+bundle: welcome_message
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_image: true

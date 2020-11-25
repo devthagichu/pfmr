@@ -1,0 +1,39 @@
+uuid: 857179fa-4c36-4db2-b8b8-04ed6790c97a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.slider.body
+    - field.field.node.slider.field_image
+    - node.type.slider
+  module:
+    - image
+    - text
+    - user
+id: node.slider.default
+targetEntityType: node
+bundle: slider
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

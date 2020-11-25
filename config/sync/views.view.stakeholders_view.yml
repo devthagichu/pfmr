@@ -1,18 +1,14 @@
-uuid: dc1a559d-23c7-48cc-8678-d214396f0e46
+uuid: 1d868ef3-eef4-444c-bbbc-5e636a247a5c
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image
-    - field.storage.node.field_link
-    - node.type.programmes
+    - node.type.stakeholders
   module:
-    - image
-    - link
     - node
     - user
-id: programme_view
-label: Programme_view
+id: stakeholders_view
+label: Stakeholders_view
 module: views
 description: ''
 tag: ''
@@ -53,93 +49,27 @@ display:
       pager:
         type: some
         options:
-          items_per_page: 8
+          items_per_page: 100
           offset: 0
       style:
         type: html_list
         options:
           grouping: {  }
-          row_class: 'col-md-3 programmes list-unstyled mb-4'
+          row_class: 'col-md-4   list-unstyled mb-4'
           default_row_class: true
           type: ul
-          wrapper_class: mt-4
+          wrapper_class: item-list
           class: row
       row:
         type: fields
-        options:
-          default_field_elements: true
-          inline: {  }
-          separator: ''
-          hide_empty: false
       fields:
-        field_image:
-          id: field_image
-          table: node__field_image
-          field: field_image
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: programmes
-          element_label_type: ''
-          element_label_class: img-fluid
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: img-fluid
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: target_id
-          type: image
+        title:
+          id: title
+          table: node_field_data
+          field: title
           settings:
-            image_style: ''
-            image_link: ''
-          group_column: ''
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
+            link_to_entity: true
           plugin_id: field
-        field_link:
-          id: field_link
-          table: node__field_link
-          field: field_link
           relationship: none
           group_type: group
           admin_label: ''
@@ -176,7 +106,7 @@ display:
           element_class: ''
           element_label_type: ''
           element_label_class: ''
-          element_label_colon: false
+          element_label_colon: true
           element_wrapper_type: ''
           element_wrapper_class: ''
           element_default_classes: true
@@ -184,15 +114,9 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          click_sort_column: uri
-          type: link
-          settings:
-            trim_length: 80
-            url_only: false
-            url_plain: false
-            rel: '0'
-            target: '0'
-          group_column: ''
+          click_sort_column: value
+          type: string
+          group_column: value
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -202,7 +126,6 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-          plugin_id: field
       filters:
         status:
           value: '1'
@@ -222,7 +145,7 @@ display:
           table: node_field_data
           field: type
           value:
-            programmes: programmes
+            stakeholders: stakeholders
           entity_type: node
           entity_field: type
           plugin_id: bundle
@@ -245,7 +168,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Programme_view
+      title: Stakeholders_view
       header: {  }
       footer: {  }
       empty: {  }
@@ -259,9 +182,7 @@ display:
         - 'languages:language_interface'
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.field_image'
-        - 'config:field.storage.node.field_link'
+      tags: {  }
   block_1:
     display_plugin: block
     id: block_1
@@ -276,6 +197,4 @@ display:
         - 'languages:language_interface'
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.field_image'
-        - 'config:field.storage.node.field_link'
+      tags: {  }

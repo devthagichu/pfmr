@@ -9,7 +9,7 @@ _core:
 id: TNTP_8_x_page_title
 theme: TNTP_8_x
 region: content
-weight: -50
+weight: -9
 provider: null
 plugin: page_title_block
 settings:

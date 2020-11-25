@@ -1,0 +1,24 @@
+uuid: ce73a002-d4ea-433a-be0e-cae65c55bec7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.visionmission_view
+  module:
+    - views
+  theme:
+    - TNTP_8_x
+id: views_block__visionmission_view_block_1
+theme: TNTP_8_x
+region: visionmission
+weight: 0
+provider: null
+plugin: 'views_block:visionmission_view-block_1'
+settings:
+  id: 'views_block:visionmission_view-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

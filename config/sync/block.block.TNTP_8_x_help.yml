@@ -11,7 +11,7 @@ _core:
 id: TNTP_8_x_help
 theme: TNTP_8_x
 region: content
-weight: -30
+weight: -5
 provider: null
 plugin: help_block
 settings:

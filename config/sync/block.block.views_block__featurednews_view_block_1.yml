@@ -1,0 +1,24 @@
+uuid: 1709e668-a519-4d6e-a109-5b3371a6c473
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.featurednews_view
+  module:
+    - views
+  theme:
+    - TNTP_8_x
+id: views_block__featurednews_view_block_1
+theme: TNTP_8_x
+region: featurednews
+weight: 0
+provider: null
+plugin: 'views_block:featurednews_view-block_1'
+settings:
+  id: 'views_block:featurednews_view-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

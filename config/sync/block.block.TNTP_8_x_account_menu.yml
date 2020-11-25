@@ -13,7 +13,7 @@ _core:
 id: TNTP_8_x_account_menu
 theme: TNTP_8_x
 region: topnav
-weight: 0
+weight: -5
 provider: null
 plugin: 'system_menu_block:account'
 settings:

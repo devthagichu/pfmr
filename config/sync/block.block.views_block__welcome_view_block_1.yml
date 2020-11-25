@@ -1,0 +1,24 @@
+uuid: 670cf160-e11f-4d4c-96ec-6011faab9ad3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.welcome_view
+  module:
+    - views
+  theme:
+    - TNTP_8_x
+id: views_block__welcome_view_block_1
+theme: TNTP_8_x
+region: welcome
+weight: 0
+provider: null
+plugin: 'views_block:welcome_view-block_1'
+settings:
+  id: 'views_block:welcome_view-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }
