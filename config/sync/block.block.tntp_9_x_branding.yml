@@ -1,0 +1,25 @@
+uuid: 714660e0-ef68-4c6f-83c4-7851e271efac
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tntp_9_x
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: tntp_9_x_branding
+theme: tntp_9_x
+region: header
+weight: -10
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

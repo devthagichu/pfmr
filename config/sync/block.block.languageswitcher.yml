@@ -1,0 +1,27 @@
+uuid: 8e0844bd-079b-4cf6-8091-d3be2335918d
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - tntp_9_x
+id: languageswitcher
+theme: tntp_9_x
+region: language
+weight: -11
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Select Language'
+  provider: language
+  label_display: '0'
+visibility:
+  language:
+    id: language
+    langcodes:
+      en: en
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'

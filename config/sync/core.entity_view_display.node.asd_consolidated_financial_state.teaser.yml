@@ -1,0 +1,35 @@
+uuid: 6122f630-ca42-4248-a357-d3d1f71b4eed
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.asd_consolidated_financial_state.body
+    - field.field.node.asd_consolidated_financial_state.field_a_z
+    - field.field.node.asd_consolidated_financial_state.field_pdf
+    - node.type.asd_consolidated_financial_state
+  module:
+    - text
+    - user
+id: node.asd_consolidated_financial_state.teaser
+targetEntityType: node
+bundle: asd_consolidated_financial_state
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_a_z: true
+  field_pdf: true
+  langcode: true

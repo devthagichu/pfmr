@@ -1,0 +1,25 @@
+uuid: b05b09f2-6660-4a0f-8d4a-01ffe57e040f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.top-nav
+  module:
+    - system
+  theme:
+    - tntp_9_x
+id: tntp_9_x_topnav
+theme: tntp_9_x
+region: topnav
+weight: -12
+provider: null
+plugin: 'system_menu_block:top-nav'
+settings:
+  id: 'system_menu_block:top-nav'
+  label: 'top nav'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

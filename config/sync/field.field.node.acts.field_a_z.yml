@@ -1,0 +1,29 @@
+uuid: b6b4e431-07c8-427c-8375-357ecd9cf871
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_a_z
+    - node.type.acts
+    - taxonomy.vocabulary.a
+id: node.acts.field_a_z
+field_name: field_a_z
+entity_type: node
+bundle: acts
+label: a-z
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      a: a
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

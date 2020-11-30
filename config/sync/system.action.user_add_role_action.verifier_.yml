@@ -1,0 +1,14 @@
+uuid: 8a9a26d3-05a7-4157-946f-ca022c27f81d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.verifier_
+  module:
+    - user
+id: user_add_role_action.verifier_
+label: 'Add the verifier role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: verifier_

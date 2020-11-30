@@ -1,0 +1,17 @@
+uuid: 49b1f726-57ec-406d-a146-6aa0e7a2cf8d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Bills
+type: bills
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

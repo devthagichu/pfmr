@@ -10,6 +10,7 @@ libraries:
 regions:
   topnav: Top Navigation
   header: Header Area
+  language: Language Area
   menu: Main Menu
   hero: Main Hero
   slider: Main Slider

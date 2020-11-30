@@ -1,0 +1,35 @@
+uuid: 8db4aa24-0cd5-414d-98ce-11cb794ef182
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bills.body
+    - field.field.node.bills.field_a_z
+    - field.field.node.bills.field_pdf
+    - node.type.bills
+  module:
+    - text
+    - user
+id: node.bills.teaser
+targetEntityType: node
+bundle: bills
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_a_z: true
+  field_pdf: true
+  langcode: true

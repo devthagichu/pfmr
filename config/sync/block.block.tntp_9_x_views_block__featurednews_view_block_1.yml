@@ -1,0 +1,30 @@
+uuid: 867d4bdf-84a0-4bbf-abb3-0078f65f391f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.featurednews_view
+  module:
+    - system
+    - views
+  theme:
+    - tntp_9_x
+id: tntp_9_x_views_block__featurednews_view_block_1
+theme: tntp_9_x
+region: featurednews
+weight: 0
+provider: null
+plugin: 'views_block:featurednews_view-block_1'
+settings:
+  id: 'views_block:featurednews_view-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,30 @@
+uuid: dffb3b54-ec74-4f6d-af52-e321469614cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.a-to-z
+  module:
+    - system
+  theme:
+    - tntp_9_x
+id: atoz
+theme: tntp_9_x
+region: content
+weight: -10
+provider: null
+plugin: 'system_menu_block:a-to-z'
+settings:
+  id: 'system_menu_block:a-to-z'
+  label: 'a to z'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /azdocuments
+    negate: false
+    context_mapping: {  }

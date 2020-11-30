@@ -1,0 +1,23 @@
+uuid: 9e950e0a-b975-46d6-8f28-42a9a00d6b2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.leadership
+  module:
+    - text
+id: node.leadership.body
+field_name: body
+entity_type: node
+bundle: leadership
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

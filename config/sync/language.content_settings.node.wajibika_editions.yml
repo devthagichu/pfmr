@@ -1,0 +1,11 @@
+uuid: 9559e334-1e6e-4d81-924b-ea1772a77cc6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.wajibika_editions
+id: node.wajibika_editions
+target_entity_type_id: node
+target_bundle: wajibika_editions
+default_langcode: site_default
+language_alterable: false

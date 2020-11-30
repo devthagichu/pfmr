@@ -1,0 +1,38 @@
+uuid: dacf9541-ee4d-4c80-87d7-ce8e45b3da31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.agreements.body
+    - field.field.node.agreements.field_a_z
+    - node.type.agreements
+  module:
+    - text
+    - user
+id: node.agreements.default
+targetEntityType: node
+bundle: agreements
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_a_z:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

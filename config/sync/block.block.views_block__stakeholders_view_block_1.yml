@@ -11,7 +11,7 @@ dependencies:
 id: views_block__stakeholders_view_block_1
 theme: TNTP_8_x
 region: stakeholders
-weight: 0
+weight: -11
 provider: null
 plugin: 'views_block:stakeholders_view-block_1'
 settings:

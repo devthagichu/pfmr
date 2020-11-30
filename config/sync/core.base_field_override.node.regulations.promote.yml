@@ -1,0 +1,22 @@
+uuid: ad20f17f-8f69-4011-a151-0460280952c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.regulations
+id: node.regulations.promote
+field_name: promote
+entity_type: node
+bundle: regulations
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

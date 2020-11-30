@@ -1,0 +1,23 @@
+uuid: e0051741-6f55-4822-8fc7-391002f37ea1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tenders
+  module:
+    - text
+id: node.tenders.body
+field_name: body
+entity_type: node
+bundle: tenders
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

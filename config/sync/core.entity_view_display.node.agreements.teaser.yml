@@ -1,0 +1,33 @@
+uuid: 8c63a2b9-327c-4b72-b3c8-77d030f19d9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.agreements.body
+    - field.field.node.agreements.field_a_z
+    - node.type.agreements
+  module:
+    - text
+    - user
+id: node.agreements.teaser
+targetEntityType: node
+bundle: agreements
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_a_z: true
+  langcode: true

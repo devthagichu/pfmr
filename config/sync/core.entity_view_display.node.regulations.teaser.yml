@@ -1,0 +1,35 @@
+uuid: b0c501ca-df9f-46d9-bc5d-da345eee8725
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.regulations.body
+    - field.field.node.regulations.field_a_z
+    - field.field.node.regulations.field_pdf
+    - node.type.regulations
+  module:
+    - text
+    - user
+id: node.regulations.teaser
+targetEntityType: node
+bundle: regulations
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_a_z: true
+  field_pdf: true
+  langcode: true

@@ -1,0 +1,39 @@
+uuid: 56f377a7-356e-42af-a8e8-815658e0ea9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.policies.body
+    - field.field.node.policies.field_pdf
+    - node.type.policies
+  module:
+    - file
+    - text
+    - user
+id: node.policies.default
+targetEntityType: node
+bundle: policies
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_pdf:
+    weight: 102
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

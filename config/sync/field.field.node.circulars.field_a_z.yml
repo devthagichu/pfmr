@@ -1,0 +1,29 @@
+uuid: f8a076e9-0a14-4add-8ab0-66f59e23a238
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_a_z
+    - node.type.circulars
+    - taxonomy.vocabulary.a
+id: node.circulars.field_a_z
+field_name: field_a_z
+entity_type: node
+bundle: circulars
+label: a-z
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      a: a
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

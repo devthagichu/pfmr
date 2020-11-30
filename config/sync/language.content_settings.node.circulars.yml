@@ -1,0 +1,11 @@
+uuid: 42f24a0d-cfc1-4871-a5c6-e325c6cbb4ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.circulars
+id: node.circulars
+target_entity_type_id: node
+target_bundle: circulars
+default_langcode: site_default
+language_alterable: false

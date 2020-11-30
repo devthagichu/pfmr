@@ -1,0 +1,48 @@
+uuid: f257011b-7c4b-4118-91aa-c0bc869f9f0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.regulations.body
+    - field.field.node.regulations.field_a_z
+    - field.field.node.regulations.field_pdf
+    - node.type.regulations
+  module:
+    - file
+    - text
+    - user
+id: node.regulations.default
+targetEntityType: node
+bundle: regulations
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_a_z:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_pdf:
+    weight: 103
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

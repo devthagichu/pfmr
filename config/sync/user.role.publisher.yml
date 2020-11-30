@@ -1,0 +1,9 @@
+uuid: e30d01b8-b795-4a55-bc55-172060a4e66c
+langcode: en
+status: true
+dependencies: {  }
+id: publisher
+label: publisher
+weight: 6
+is_admin: null
+permissions: {  }

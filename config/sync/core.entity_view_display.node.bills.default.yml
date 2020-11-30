@@ -1,0 +1,48 @@
+uuid: 9d11e12d-0fad-4038-9455-62c1cad6c424
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bills.body
+    - field.field.node.bills.field_a_z
+    - field.field.node.bills.field_pdf
+    - node.type.bills
+  module:
+    - file
+    - text
+    - user
+id: node.bills.default
+targetEntityType: node
+bundle: bills
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_a_z:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_pdf:
+    weight: 102
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

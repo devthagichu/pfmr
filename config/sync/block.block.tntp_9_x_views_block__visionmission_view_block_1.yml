@@ -1,0 +1,30 @@
+uuid: 010385a3-9ed6-4471-ae40-3c765ab522f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.visionmission_view
+  module:
+    - system
+    - views
+  theme:
+    - tntp_9_x
+id: tntp_9_x_views_block__visionmission_view_block_1
+theme: tntp_9_x
+region: visionmission
+weight: 0
+provider: null
+plugin: 'views_block:visionmission_view-block_1'
+settings:
+  id: 'views_block:visionmission_view-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

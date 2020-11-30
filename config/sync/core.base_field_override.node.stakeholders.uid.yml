@@ -1,0 +1,20 @@
+uuid: 1521f4cd-1be4-4ba6-bb89-b92df8005f63
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.stakeholders
+id: node.stakeholders.uid
+field_name: uid
+entity_type: node
+bundle: stakeholders
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: e124043b-c8a9-41ca-bd58-5adc583dbeeb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title
+    - node.type.leadership
+  module:
+    - text
+id: node.leadership.field_title
+field_name: field_title
+entity_type: node
+bundle: leadership
+label: title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

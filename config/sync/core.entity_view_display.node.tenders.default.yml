@@ -1,0 +1,39 @@
+uuid: ad58abd7-0c73-4767-8b5b-22cc6b722293
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tenders.body
+    - field.field.node.tenders.field_pdf
+    - node.type.tenders
+  module:
+    - file
+    - text
+    - user
+id: node.tenders.default
+targetEntityType: node
+bundle: tenders
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_pdf:
+    weight: 102
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

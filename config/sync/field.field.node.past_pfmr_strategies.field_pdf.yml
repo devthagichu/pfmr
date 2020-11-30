@@ -1,0 +1,27 @@
+uuid: 95e8ee1b-4367-4438-8c00-9515fcca0246
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pdf
+    - node.type.past_pfmr_strategies
+  module:
+    - file
+id: node.past_pfmr_strategies.field_pdf
+field_name: field_pdf
+entity_type: node
+bundle: past_pfmr_strategies
+label: pdf
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

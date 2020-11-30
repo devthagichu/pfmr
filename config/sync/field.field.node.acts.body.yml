@@ -1,0 +1,23 @@
+uuid: 592039ee-4999-41be-b539-1f337ca96d91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.acts
+  module:
+    - text
+id: node.acts.body
+field_name: body
+entity_type: node
+bundle: acts
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

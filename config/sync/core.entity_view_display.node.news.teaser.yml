@@ -1,6 +1,6 @@
 uuid: f8b6ecda-88f6-4860-a21f-532dabf21b4e
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
@@ -30,3 +30,4 @@ content:
     region: content
 hidden:
   field_image: true
+  langcode: true

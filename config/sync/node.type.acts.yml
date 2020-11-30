@@ -1,0 +1,17 @@
+uuid: 3dc2fc43-d321-415f-9b6c-2d59141437ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Acts
+type: acts
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

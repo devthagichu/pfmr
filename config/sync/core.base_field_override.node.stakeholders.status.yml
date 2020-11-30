@@ -1,0 +1,22 @@
+uuid: f22b648e-ae28-4377-8f19-1685d35e9d49
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.stakeholders
+id: node.stakeholders.status
+field_name: status
+entity_type: node
+bundle: stakeholders
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

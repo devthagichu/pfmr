@@ -1,0 +1,11 @@
+uuid: 16a6d0ee-029a-4192-b477-a9f9989fad48
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.acts
+id: node.acts
+target_entity_type_id: node
+target_bundle: acts
+default_langcode: site_default
+language_alterable: false

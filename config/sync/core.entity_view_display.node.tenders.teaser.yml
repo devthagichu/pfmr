@@ -1,0 +1,33 @@
+uuid: b627983c-32a6-4148-a13a-b69d5c2ab786
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tenders.body
+    - field.field.node.tenders.field_pdf
+    - node.type.tenders
+  module:
+    - text
+    - user
+id: node.tenders.teaser
+targetEntityType: node
+bundle: tenders
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_pdf: true
+  langcode: true

@@ -1,0 +1,17 @@
+uuid: b38cc6b3-ddc3-4fb4-9693-0996d52f3b72
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Wajibika Editions'
+type: wajibika_editions
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

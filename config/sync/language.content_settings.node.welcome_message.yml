@@ -1,0 +1,18 @@
+uuid: 2ac34fb0-47fc-484b-a0aa-c1be7b282ddd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.welcome_message
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.welcome_message
+target_entity_type_id: node
+target_bundle: welcome_message
+default_langcode: site_default
+language_alterable: true

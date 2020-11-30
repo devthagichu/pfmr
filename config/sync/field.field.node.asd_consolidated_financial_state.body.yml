@@ -1,0 +1,23 @@
+uuid: e3e462f6-c9db-49ed-8438-8ddb1e1030bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.asd_consolidated_financial_state
+  module:
+    - text
+id: node.asd_consolidated_financial_state.body
+field_name: body
+entity_type: node
+bundle: asd_consolidated_financial_state
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

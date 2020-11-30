@@ -1,0 +1,20 @@
+uuid: 0d749307-31a3-47b1-bc98-0524b54f52a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.slider
+id: node.slider.uid
+field_name: uid
+entity_type: node
+bundle: slider
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,22 @@
+uuid: 550e0d69-3b4a-4b1f-816b-3c79070c4b93
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - tntp_9_x
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: tntp_9_x_messages
+theme: tntp_9_x
+region: topnav
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

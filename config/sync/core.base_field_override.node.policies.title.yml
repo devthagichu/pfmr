@@ -1,0 +1,18 @@
+uuid: ca47ad44-6f86-4b64-91bd-2da130de6316
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.policies
+id: node.policies.title
+field_name: title
+entity_type: node
+bundle: policies
+label: Policies
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

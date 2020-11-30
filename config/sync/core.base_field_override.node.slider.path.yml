@@ -1,0 +1,20 @@
+uuid: a7097bac-870e-452c-9853-57dad3773c3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.slider
+  module:
+    - path
+id: node.slider.path
+field_name: path
+entity_type: node
+bundle: slider
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

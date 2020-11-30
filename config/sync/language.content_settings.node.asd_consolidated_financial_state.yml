@@ -1,0 +1,11 @@
+uuid: bbef8536-3aad-43ed-85fd-8341e7fc7607
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.asd_consolidated_financial_state
+id: node.asd_consolidated_financial_state
+target_entity_type_id: node
+target_bundle: asd_consolidated_financial_state
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,39 @@
+uuid: 740f1003-9964-4803-8945-816129878d2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.handbook.body
+    - field.field.node.handbook.field_pdf
+    - node.type.handbook
+  module:
+    - file
+    - text
+    - user
+id: node.handbook.default
+targetEntityType: node
+bundle: handbook
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_pdf:
+    weight: 102
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

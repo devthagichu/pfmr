@@ -1,0 +1,11 @@
+uuid: 53177851-2fd3-43aa-a0c8-e3f2f6ebe1d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.bills
+id: node.bills
+target_entity_type_id: node
+target_bundle: bills
+default_langcode: site_default
+language_alterable: false

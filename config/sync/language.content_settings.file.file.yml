@@ -1,0 +1,11 @@
+uuid: 187cf154-a1c0-4435-80b1-93ad53b65c13
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+id: file.file
+target_entity_type_id: file
+target_bundle: file
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,20 @@
+uuid: 30f72bd7-7984-4050-a76a-a86f1c83e888
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tntp_9_x
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: tntp_9_x_local_actions
+theme: tntp_9_x
+region: termsandconditions
+weight: -9
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

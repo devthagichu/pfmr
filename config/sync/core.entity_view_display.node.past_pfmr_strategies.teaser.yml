@@ -1,0 +1,35 @@
+uuid: 3f486021-e3e9-4b19-9525-4c6e9fa0ae65
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.past_pfmr_strategies.body
+    - field.field.node.past_pfmr_strategies.field_a_z
+    - field.field.node.past_pfmr_strategies.field_pdf
+    - node.type.past_pfmr_strategies
+  module:
+    - text
+    - user
+id: node.past_pfmr_strategies.teaser
+targetEntityType: node
+bundle: past_pfmr_strategies
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_a_z: true
+  field_pdf: true
+  langcode: true

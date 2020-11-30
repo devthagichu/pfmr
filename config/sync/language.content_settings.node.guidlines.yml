@@ -1,0 +1,11 @@
+uuid: adfd7157-019a-4771-b3c3-d8a8fb9dbb58
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.guidlines
+id: node.guidlines
+target_entity_type_id: node
+target_bundle: guidlines
+default_langcode: site_default
+language_alterable: false

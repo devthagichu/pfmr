@@ -1,0 +1,18 @@
+uuid: 704f7fd8-03fe-44b4-9f3e-b782eea8cfaf
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.stakeholders
+id: node.stakeholders.title
+field_name: title
+entity_type: node
+bundle: stakeholders
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

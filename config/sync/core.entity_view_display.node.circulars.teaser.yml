@@ -1,0 +1,35 @@
+uuid: 4793b6dd-3f01-4d0e-83f1-5831c5c881c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.circulars.body
+    - field.field.node.circulars.field_a_z
+    - field.field.node.circulars.field_pdf
+    - node.type.circulars
+  module:
+    - text
+    - user
+id: node.circulars.teaser
+targetEntityType: node
+bundle: circulars
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_a_z: true
+  field_pdf: true
+  langcode: true

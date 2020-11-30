@@ -1,0 +1,35 @@
+uuid: 73d9ee4d-5dc8-4a55-b2c2-ca904a3ed2ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.acts.body
+    - field.field.node.acts.field_a_z
+    - field.field.node.acts.field_pdf
+    - node.type.acts
+  module:
+    - text
+    - user
+id: node.acts.teaser
+targetEntityType: node
+bundle: acts
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_a_z: true
+  field_pdf: true
+  langcode: true

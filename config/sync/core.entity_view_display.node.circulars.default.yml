@@ -1,0 +1,48 @@
+uuid: 4a3aa98b-3f04-4dd4-ae39-131df0c930c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.circulars.body
+    - field.field.node.circulars.field_a_z
+    - field.field.node.circulars.field_pdf
+    - node.type.circulars
+  module:
+    - file
+    - text
+    - user
+id: node.circulars.default
+targetEntityType: node
+bundle: circulars
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_a_z:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_pdf:
+    weight: 102
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

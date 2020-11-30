@@ -1,0 +1,29 @@
+uuid: 65b1cc7b-a006-4100-bed7-eb374bf749e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_a_z
+    - node.type.agreements
+    - taxonomy.vocabulary.a
+id: node.agreements.field_a_z
+field_name: field_a_z
+entity_type: node
+bundle: agreements
+label: a-z
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      a: a
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

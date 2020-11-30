@@ -1,0 +1,20 @@
+uuid: ad2c0fa9-99ae-4bd7-a1b2-90ead4f1dfa1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.stakeholders
+  module:
+    - path
+id: node.stakeholders.path
+field_name: path
+entity_type: node
+bundle: stakeholders
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

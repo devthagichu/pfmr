@@ -1,0 +1,33 @@
+uuid: 4a58dd9b-92f6-4543-9da6-11bea331a366
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.guidlines.body
+    - field.field.node.guidlines.field_pdf
+    - node.type.guidlines
+  module:
+    - text
+    - user
+id: node.guidlines.teaser
+targetEntityType: node
+bundle: guidlines
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_pdf: true
+  langcode: true

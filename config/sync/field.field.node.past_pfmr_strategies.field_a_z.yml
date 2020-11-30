@@ -1,0 +1,29 @@
+uuid: f152d294-a1df-4264-aad3-904e37cc0c0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_a_z
+    - node.type.past_pfmr_strategies
+    - taxonomy.vocabulary.a
+id: node.past_pfmr_strategies.field_a_z
+field_name: field_a_z
+entity_type: node
+bundle: past_pfmr_strategies
+label: a-z
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      a: a
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

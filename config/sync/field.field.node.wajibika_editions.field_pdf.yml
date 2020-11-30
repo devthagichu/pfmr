@@ -1,0 +1,27 @@
+uuid: de1b5b60-3a95-4b72-ade0-bd5b198f8741
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pdf
+    - node.type.wajibika_editions
+  module:
+    - file
+id: node.wajibika_editions.field_pdf
+field_name: field_pdf
+entity_type: node
+bundle: wajibika_editions
+label: pdf
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,14 @@
+uuid: 3604e5aa-622f-4071-b066-86f4c65236b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.verifier_
+  module:
+    - user
+id: user_remove_role_action.verifier_
+label: 'Remove the verifier role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: verifier_

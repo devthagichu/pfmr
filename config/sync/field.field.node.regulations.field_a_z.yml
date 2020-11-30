@@ -1,0 +1,29 @@
+uuid: 86d20561-22dc-4498-8254-f4227ee3e275
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_a_z
+    - node.type.regulations
+    - taxonomy.vocabulary.a
+id: node.regulations.field_a_z
+field_name: field_a_z
+entity_type: node
+bundle: regulations
+label: a-z
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      a: a
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

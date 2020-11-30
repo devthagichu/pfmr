@@ -1,0 +1,15 @@
+uuid: 17bd3a36-f6df-4099-bad4-8311c1e1c032
+langcode: en
+status: true
+dependencies: {  }
+name: full
+label: full
+effects:
+  218a0897-1da8-4627-bf96-7819171252e9:
+    uuid: 218a0897-1da8-4627-bf96-7819171252e9
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 1080
+      height: 720
+      anchor: center-center

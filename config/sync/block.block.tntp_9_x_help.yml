@@ -1,0 +1,22 @@
+uuid: 8942e824-37f9-4923-9fba-24a696fa2ec6
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - tntp_9_x
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: tntp_9_x_help
+theme: tntp_9_x
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

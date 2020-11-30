@@ -1,0 +1,22 @@
+uuid: 9f0f67ec-ad68-4ebf-8e7c-9ae9e5ba8633
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.stakeholders
+id: node.stakeholders.sticky
+field_name: sticky
+entity_type: node
+bundle: stakeholders
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

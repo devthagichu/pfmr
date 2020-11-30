@@ -1,0 +1,17 @@
+uuid: 7e44262c-aee2-42d1-92cb-ca00dbf8e703
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Circulars
+type: circulars
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,30 @@
+uuid: 64229643-bd97-4150-b955-90858068c0ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sliderview
+  module:
+    - system
+    - views
+  theme:
+    - tntp_9_x
+id: views_block__sliderview_block_1_2
+theme: tntp_9_x
+region: hero
+weight: 0
+provider: null
+plugin: 'views_block:sliderview-block_1'
+settings:
+  id: 'views_block:sliderview-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

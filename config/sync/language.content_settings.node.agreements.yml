@@ -1,0 +1,11 @@
+uuid: f0903d05-4004-4edc-800e-b3ff9f572c1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.agreements
+id: node.agreements
+target_entity_type_id: node
+target_bundle: agreements
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,33 @@
+uuid: b51b22f1-560f-4cc2-9150-c7b57f96ac77
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.policies.body
+    - field.field.node.policies.field_pdf
+    - node.type.policies
+  module:
+    - text
+    - user
+id: node.policies.teaser
+targetEntityType: node
+bundle: policies
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_pdf: true
+  langcode: true

@@ -1,0 +1,29 @@
+uuid: 076652e3-2589-455a-a58a-6dcdefd50841
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.careers.body
+    - node.type.careers
+  module:
+    - text
+    - user
+id: node.careers.default
+targetEntityType: node
+bundle: careers
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

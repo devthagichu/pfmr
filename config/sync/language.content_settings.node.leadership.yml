@@ -1,0 +1,11 @@
+uuid: 76951080-c1ab-4110-a7a9-067924cebafc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.leadership
+id: node.leadership
+target_entity_type_id: node
+target_bundle: leadership
+default_langcode: site_default
+language_alterable: false

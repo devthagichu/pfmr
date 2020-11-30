@@ -1,0 +1,37 @@
+uuid: 1b88a3f1-6ef1-41ce-a4ef-765b2186984f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.leadership.body
+    - field.field.node.leadership.field_image
+    - field.field.node.leadership.field_name
+    - field.field.node.leadership.field_title
+    - node.type.leadership
+  module:
+    - text
+    - user
+id: node.leadership.teaser
+targetEntityType: node
+bundle: leadership
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_image: true
+  field_name: true
+  field_title: true
+  langcode: true

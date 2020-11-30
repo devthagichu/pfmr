@@ -1,0 +1,27 @@
+uuid: f1d4b808-2a11-441d-a71a-ae0ba58af202
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tntp_9_x
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: tntp_9_x_page_title
+theme: tntp_9_x
+region: content
+weight: -11
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

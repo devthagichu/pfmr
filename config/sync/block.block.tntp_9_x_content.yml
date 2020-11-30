@@ -1,0 +1,22 @@
+uuid: e1604fa8-a94e-4a63-b35c-140c15cb749d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tntp_9_x
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: tntp_9_x_content
+theme: tntp_9_x
+region: content
+weight: -9
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

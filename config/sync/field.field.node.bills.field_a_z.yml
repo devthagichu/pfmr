@@ -1,0 +1,29 @@
+uuid: 87fa8abc-9582-4536-93df-4350ae5cc1e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_a_z
+    - node.type.bills
+    - taxonomy.vocabulary.a
+id: node.bills.field_a_z
+field_name: field_a_z
+entity_type: node
+bundle: bills
+label: a-z
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      a: a
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

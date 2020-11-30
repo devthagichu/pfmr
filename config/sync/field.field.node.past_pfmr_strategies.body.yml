@@ -1,0 +1,23 @@
+uuid: 6bd542bb-9021-4b66-a63e-5dc679baf48a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.past_pfmr_strategies
+  module:
+    - text
+id: node.past_pfmr_strategies.body
+field_name: body
+entity_type: node
+bundle: past_pfmr_strategies
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

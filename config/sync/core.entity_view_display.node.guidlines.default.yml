@@ -1,0 +1,39 @@
+uuid: 514d26a3-0d03-43a2-9200-efe4e76d9847
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.guidlines.body
+    - field.field.node.guidlines.field_pdf
+    - node.type.guidlines
+  module:
+    - file
+    - text
+    - user
+id: node.guidlines.default
+targetEntityType: node
+bundle: guidlines
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_pdf:
+    weight: 102
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

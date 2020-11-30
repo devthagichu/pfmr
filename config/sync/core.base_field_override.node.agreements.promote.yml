@@ -1,0 +1,22 @@
+uuid: 54a5263b-9386-4507-a8a7-35df066c8aed
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.agreements
+id: node.agreements.promote
+field_name: promote
+entity_type: node
+bundle: agreements
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

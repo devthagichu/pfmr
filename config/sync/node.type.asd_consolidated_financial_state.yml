@@ -1,0 +1,17 @@
+uuid: 035122de-7cde-4628-9840-ec5ea987cd8a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'ASD Consolidated Financial Statements'
+type: asd_consolidated_financial_state
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

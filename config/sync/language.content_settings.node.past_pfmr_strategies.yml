@@ -1,0 +1,11 @@
+uuid: 3f491f35-50ba-4e0e-aea9-0360dd9fa6dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.past_pfmr_strategies
+id: node.past_pfmr_strategies
+target_entity_type_id: node
+target_bundle: past_pfmr_strategies
+default_langcode: site_default
+language_alterable: false
