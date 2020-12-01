@@ -1,0 +1,24 @@
+uuid: 3b2b8544-22ac-4ff4-b837-9b6fe46713eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.banner
+  module:
+    - views
+  theme:
+    - tntp_9_x
+id: views_block__banner_block_1
+theme: tntp_9_x
+region: slider
+weight: -13
+provider: null
+plugin: 'views_block:banner-block_1'
+settings:
+  id: 'views_block:banner-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

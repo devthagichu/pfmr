@@ -1,0 +1,11 @@
+uuid: 9da5a7ea-9886-44ab-8270-f281125f0289
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.gesdek_2018_19_annual_report
+id: node.gesdek_2018_19_annual_report
+target_entity_type_id: node
+target_bundle: gesdek_2018_19_annual_report
+default_langcode: site_default
+language_alterable: false

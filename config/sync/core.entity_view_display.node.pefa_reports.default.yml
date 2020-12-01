@@ -1,0 +1,48 @@
+uuid: e6dd9c4b-0e6c-45cb-afa1-416e5cba899f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pefa_reports.body
+    - field.field.node.pefa_reports.field_a_z
+    - field.field.node.pefa_reports.field_pdf
+    - node.type.pefa_reports
+  module:
+    - file
+    - text
+    - user
+id: node.pefa_reports.default
+targetEntityType: node
+bundle: pefa_reports
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_a_z:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_pdf:
+    weight: 102
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

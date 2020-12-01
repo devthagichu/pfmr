@@ -194,8 +194,8 @@ display:
         title: Regulations
         description: ''
         expanded: false
-        parent: ''
-        weight: 0
+        parent: 'menu_link_content:f2f1b735-a00a-41bf-9330-9fbbaef46bf3'
+        weight: -42
         context: '0'
         menu_name: main
     cache_metadata:

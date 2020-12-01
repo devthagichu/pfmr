@@ -1,0 +1,30 @@
+uuid: 900a99d9-5188-4d71-8a96-c2cb31316315
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.services_view
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_barrio_subtheme
+id: bootstrap_barrio_subtheme_views_block__services_view_block_1
+theme: bootstrap_barrio_subtheme
+region: top_header
+weight: 0
+provider: null
+plugin: 'views_block:services_view-block_1'
+settings:
+  id: 'views_block:services_view-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

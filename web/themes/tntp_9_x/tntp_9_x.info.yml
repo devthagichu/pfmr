@@ -2,10 +2,12 @@ name: tntp_9_x
 type: theme
 description: "tntp_9_x is a custom theme developed by Thagichu Anthony"
 core_version_requirement: ^8.8 || ^9
-base theme: stable
+base theme: bootstrap_barrio
 libraries:
   - tntp_9_x/global-styling
   - tntp_9_x/global-js
+  - tntp_9_x/bootstrap_cdn
+  - bootstrap_barrio_subtheme/global-styling
 
 regions:
   topnav: Top Navigation
@@ -16,6 +18,8 @@ regions:
   slider: Main Slider
   floatingicons: floating Icons Area
   content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
   welcome: Welcome
   visionmission: vision Mission Area
   programmes: Programmes Area

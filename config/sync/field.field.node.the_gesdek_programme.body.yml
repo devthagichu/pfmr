@@ -1,0 +1,23 @@
+uuid: 9fe3c655-781d-4cb9-bcc9-2504b438453f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.the_gesdek_programme
+  module:
+    - text
+id: node.the_gesdek_programme.body
+field_name: body
+entity_type: node
+bundle: the_gesdek_programme
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,11 @@
+uuid: be0c8350-046f-43c9-b763-3bf4d1b771d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.the_gesdek_programme
+id: node.the_gesdek_programme
+target_entity_type_id: node
+target_bundle: the_gesdek_programme
+default_langcode: site_default
+language_alterable: false

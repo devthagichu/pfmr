@@ -1,0 +1,27 @@
+uuid: 22a16ac8-81dd-4287-9217-ba7f2308a118
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_languageswitcher
+theme: bootstrap_barrio
+region: top_header
+weight: -11
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Select Language'
+  provider: language
+  label_display: '0'
+visibility:
+  language:
+    id: language
+    langcodes:
+      en: en
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'

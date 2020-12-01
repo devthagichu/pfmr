@@ -1,0 +1,30 @@
+uuid: 9883d0d5-e03d-469f-99d9-28199b6885d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sliderview
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_views_block__sliderview_block_1
+theme: bootstrap_barrio
+region: top_header
+weight: 0
+provider: null
+plugin: 'views_block:sliderview-block_1'
+settings:
+  id: 'views_block:sliderview-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

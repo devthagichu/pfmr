@@ -33,7 +33,7 @@ content:
     region: content
   field_pdf:
     weight: 102
-    label: above
+    label: inline
     settings:
       use_description_as_link_text: true
     third_party_settings: {  }
@@ -41,8 +41,8 @@ content:
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   langcode: true

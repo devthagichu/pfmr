@@ -1,0 +1,30 @@
+uuid: e6e25163-bdb4-4065-bca4-3021ffeacab6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.aboutus
+  module:
+    - system
+  theme:
+    - tntp_9_x
+id: aboutus
+theme: tntp_9_x
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:aboutus'
+settings:
+  id: 'system_menu_block:aboutus'
+  label: Aboutus
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: '/about/*'
+    negate: false
+    context_mapping: {  }

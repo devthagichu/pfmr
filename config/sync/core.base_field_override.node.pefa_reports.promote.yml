@@ -1,0 +1,22 @@
+uuid: 5ce32aba-c9d5-47a3-89cc-a852f2aea71c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.pefa_reports
+id: node.pefa_reports.promote
+field_name: promote
+entity_type: node
+bundle: pefa_reports
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

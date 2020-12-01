@@ -1,0 +1,30 @@
+uuid: 56f9f268-5072-496c-b355-1d94f4519257
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.stakeholders_view
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_views_block__stakeholders_view_block_1
+theme: bootstrap_barrio
+region: top_header
+weight: -11
+provider: null
+plugin: 'views_block:stakeholders_view-block_1'
+settings:
+  id: 'views_block:stakeholders_view-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: '40'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

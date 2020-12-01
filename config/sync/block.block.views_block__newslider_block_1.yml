@@ -1,0 +1,24 @@
+uuid: a79b157b-1805-4e90-89bc-468ec30e2992
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.newslider
+  module:
+    - views
+  theme:
+    - tntp_9_x
+id: views_block__newslider_block_1
+theme: tntp_9_x
+region: hero
+weight: -13
+provider: null
+plugin: 'views_block:newslider-block_1'
+settings:
+  id: 'views_block:newslider-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: '10'
+visibility: {  }

@@ -190,7 +190,7 @@ display:
         type: normal
         title: 'Policies views'
         menu_name: main
-        weight: -49
+        weight: -48
         parent: 'menu_link_content:f2f1b735-a00a-41bf-9330-9fbbaef46bf3'
     cache_metadata:
       max-age: -1

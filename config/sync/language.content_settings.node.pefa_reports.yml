@@ -1,0 +1,11 @@
+uuid: 44f8de9e-e73e-4c64-b68e-a6937d99972d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.pefa_reports
+id: node.pefa_reports
+target_entity_type_id: node
+target_bundle: pefa_reports
+default_langcode: site_default
+language_alterable: false

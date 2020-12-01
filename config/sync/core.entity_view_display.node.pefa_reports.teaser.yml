@@ -1,0 +1,35 @@
+uuid: 041f2d00-0b9e-4cf4-9c2d-d66c5dc13eb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pefa_reports.body
+    - field.field.node.pefa_reports.field_a_z
+    - field.field.node.pefa_reports.field_pdf
+    - node.type.pefa_reports
+  module:
+    - text
+    - user
+id: node.pefa_reports.teaser
+targetEntityType: node
+bundle: pefa_reports
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_a_z: true
+  field_pdf: true
+  langcode: true

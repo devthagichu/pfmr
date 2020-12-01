@@ -1,0 +1,33 @@
+uuid: fc424775-93a2-4eef-82ed-5b7fa071f670
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.gesdek_2018_19_annual_report.body
+    - field.field.node.gesdek_2018_19_annual_report.field_pdf
+    - node.type.gesdek_2018_19_annual_report
+  module:
+    - text
+    - user
+id: node.gesdek_2018_19_annual_report.teaser
+targetEntityType: node
+bundle: gesdek_2018_19_annual_report
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_pdf: true
+  langcode: true

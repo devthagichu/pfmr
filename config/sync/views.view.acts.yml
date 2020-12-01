@@ -168,6 +168,7 @@ display:
       empty: {  }
       relationships: {  }
       arguments: {  }
+      display_extenders: {  }
     cache_metadata:
       max-age: -1
       contexts:
@@ -189,6 +190,8 @@ display:
         type: normal
         title: Acts
         menu_name: main
+        weight: -40
+        parent: 'menu_link_content:f2f1b735-a00a-41bf-9330-9fbbaef46bf3'
     cache_metadata:
       max-age: -1
       contexts:

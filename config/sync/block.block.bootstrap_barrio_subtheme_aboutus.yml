@@ -1,0 +1,30 @@
+uuid: 4feb723d-2d84-4756-80c0-2567db2ae411
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.aboutus
+  module:
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: bootstrap_barrio_subtheme_aboutus
+theme: bootstrap_barrio_subtheme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:aboutus'
+settings:
+  id: 'system_menu_block:aboutus'
+  label: Aboutus
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: '/about/*'
+    negate: false
+    context_mapping: {  }

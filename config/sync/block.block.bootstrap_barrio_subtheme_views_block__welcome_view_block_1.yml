@@ -1,0 +1,30 @@
+uuid: b17b6734-051e-4f14-9c0e-a4a26c4ab1bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.welcome_view
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_barrio_subtheme
+id: bootstrap_barrio_subtheme_views_block__welcome_view_block_1
+theme: bootstrap_barrio_subtheme
+region: top_header
+weight: 0
+provider: null
+plugin: 'views_block:welcome_view-block_1'
+settings:
+  id: 'views_block:welcome_view-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

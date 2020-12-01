@@ -12,7 +12,7 @@ dependencies:
 id: tntp_9_x_views_block__programme_view_block_1
 theme: tntp_9_x
 region: programmes
-weight: 0
+weight: -13
 provider: null
 plugin: 'views_block:programme_view-block_1'
 settings:

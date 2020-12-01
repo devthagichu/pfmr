@@ -1,22 +1,22 @@
-uuid: 64229643-bd97-4150-b955-90858068c0ac
+uuid: 1a8352e8-cf1a-4e0e-b04d-1e0e31deca0a
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.sliderview
+    - views.view.eventsview
   module:
     - system
     - views
   theme:
-    - tntp_9_x
-id: views_block__sliderview_block_1_2
-theme: tntp_9_x
-region: hero
+    - bootstrap_barrio_subtheme
+id: bootstrap_barrio_subtheme_views_block__eventsview_block_1
+theme: bootstrap_barrio_subtheme
+region: top_header
 weight: 0
 provider: null
-plugin: 'views_block:sliderview-block_1'
+plugin: 'views_block:eventsview-block_1'
 settings:
-  id: 'views_block:sliderview-block_1'
+  id: 'views_block:eventsview-block_1'
   label: ''
   provider: views
   label_display: '0'

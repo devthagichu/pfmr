@@ -1,0 +1,31 @@
+uuid: f338e84d-4a6b-49ea-94cb-4a1657a8e902
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.the_gesdek_programme.body
+    - node.type.the_gesdek_programme
+  module:
+    - text
+    - user
+id: node.the_gesdek_programme.teaser
+targetEntityType: node
+bundle: the_gesdek_programme
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

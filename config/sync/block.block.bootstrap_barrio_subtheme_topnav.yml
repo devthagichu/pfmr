@@ -1,0 +1,25 @@
+uuid: 63165e1f-d224-4320-aa97-ced92a25cd0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.top-nav
+  module:
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: bootstrap_barrio_subtheme_topnav
+theme: bootstrap_barrio_subtheme
+region: top_header
+weight: -12
+provider: null
+plugin: 'system_menu_block:top-nav'
+settings:
+  id: 'system_menu_block:top-nav'
+  label: 'top nav'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

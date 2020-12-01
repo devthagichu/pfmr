@@ -193,6 +193,8 @@ display:
         type: normal
         title: Circulars
         menu_name: main
+        weight: -47
+        parent: 'menu_link_content:f2f1b735-a00a-41bf-9330-9fbbaef46bf3'
     cache_metadata:
       max-age: -1
       contexts:

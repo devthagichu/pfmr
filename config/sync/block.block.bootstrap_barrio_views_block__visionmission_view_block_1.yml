@@ -1,0 +1,30 @@
+uuid: 11fad9ab-fd7f-4d7c-a7be-ab7d674d0ede
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.visionmission_view
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_views_block__visionmission_view_block_1
+theme: bootstrap_barrio
+region: top_header
+weight: 0
+provider: null
+plugin: 'views_block:visionmission_view-block_1'
+settings:
+  id: 'views_block:visionmission_view-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

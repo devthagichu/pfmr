@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /azdocuments
+    pages: '/azdocuments/*'
     negate: false
     context_mapping: {  }

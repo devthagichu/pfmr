@@ -17,13 +17,21 @@ module:
   dynamic_page_cache: 0
   editor: 0
   field: 0
+  field_slideshow: 0
   field_ui: 0
   file: 0
   filter: 0
+  flexslider: 0
+  flexslider_example: 0
+  flexslider_fields: 0
+  flexslider_views: 0
   help: 0
   history: 0
   image: 0
+  jcarousel: 0
+  jquery_ui: 0
   language: 0
+  libraries: 0
   link: 0
   locale: 0
   menu_link_content: 0
@@ -47,6 +55,8 @@ module:
   tour: 0
   update: 0
   user: 0
+  views_slideshow: 0
+  views_slideshow_cycle: 0
   views_ui: 0
   content_translation: 10
   views: 10
@@ -58,6 +68,8 @@ theme:
   seven: 0
   TNTP_8_x: 0
   tntp_9_x: 0
+  bootstrap_barrio: 0
+  bootstrap_barrio_subtheme: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

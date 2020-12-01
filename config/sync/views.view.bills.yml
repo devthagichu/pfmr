@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
     - node.type.bills
     - system.menu.main
   module:
@@ -69,9 +68,13 @@ display:
       style:
         type: default
       row:
-        type: 'entity:node'
+        type: fields
         options:
-          view_mode: teaser
+          default_field_elements: true
+          inline:
+            title: title
+          separator: ''
+          hide_empty: false
       fields:
         title:
           id: title
@@ -168,6 +171,7 @@ display:
       empty: {  }
       relationships: {  }
       arguments: {  }
+      display_extenders: {  }
     cache_metadata:
       max-age: -1
       contexts:
@@ -189,6 +193,8 @@ display:
         type: normal
         title: Bills
         menu_name: main
+        weight: -43
+        parent: 'menu_link_content:f2f1b735-a00a-41bf-9330-9fbbaef46bf3'
     cache_metadata:
       max-age: -1
       contexts:

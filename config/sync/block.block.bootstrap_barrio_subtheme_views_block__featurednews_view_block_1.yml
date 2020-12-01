@@ -1,0 +1,30 @@
+uuid: 685e7e4a-27a6-4d70-af76-c8202f6b2591
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.featurednews_view
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_barrio_subtheme
+id: bootstrap_barrio_subtheme_views_block__featurednews_view_block_1
+theme: bootstrap_barrio_subtheme
+region: top_header
+weight: 0
+provider: null
+plugin: 'views_block:featurednews_view-block_1'
+settings:
+  id: 'views_block:featurednews_view-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

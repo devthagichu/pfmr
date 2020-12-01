@@ -1,0 +1,29 @@
+uuid: 52e1fa42-5525-4eaa-90d4-3d1683369183
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.the_gesdek_programme.body
+    - node.type.the_gesdek_programme
+  module:
+    - text
+    - user
+id: node.the_gesdek_programme.default
+targetEntityType: node
+bundle: the_gesdek_programme
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

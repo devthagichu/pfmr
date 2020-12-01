@@ -10808,8 +10808,8 @@ body {
 }
 
 .section {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.2rem;
 }
 
 .hero-bg {
@@ -10820,7 +10820,7 @@ body {
 
 .hero-content {
   width: 100%;
-  height: 55vh;
+  min-height: 55vh;
   opacity: 0.6;
 }
 
@@ -10870,5 +10870,23 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.contextual-region ul {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+}
+
+#block-atoz ul {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+}
+
+.feed-icon {
+  display: "none";
 }
 /*# sourceMappingURL=main.css.map */

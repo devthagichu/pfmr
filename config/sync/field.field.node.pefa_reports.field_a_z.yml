@@ -1,0 +1,29 @@
+uuid: b85d22ea-c6be-4c49-b981-cccc4a6ad986
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_a_z
+    - node.type.pefa_reports
+    - taxonomy.vocabulary.a
+id: node.pefa_reports.field_a_z
+field_name: field_a_z
+entity_type: node
+bundle: pefa_reports
+label: a-z
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      a: a
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

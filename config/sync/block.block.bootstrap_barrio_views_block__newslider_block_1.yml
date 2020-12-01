@@ -1,0 +1,24 @@
+uuid: 053bc1e7-3a45-4a36-809f-ea887606996c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.newslider
+  module:
+    - views
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_views_block__newslider_block_1
+theme: bootstrap_barrio
+region: top_header
+weight: 0
+provider: null
+plugin: 'views_block:newslider-block_1'
+settings:
+  id: 'views_block:newslider-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

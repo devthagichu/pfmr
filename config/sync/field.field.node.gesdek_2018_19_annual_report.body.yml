@@ -1,0 +1,23 @@
+uuid: 182a94c5-866b-4273-95a7-2860fc623a95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.gesdek_2018_19_annual_report
+  module:
+    - text
+id: node.gesdek_2018_19_annual_report.body
+field_name: body
+entity_type: node
+bundle: gesdek_2018_19_annual_report
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

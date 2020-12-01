@@ -1,0 +1,23 @@
+uuid: c750692f-db84-4ddf-876d-b1987c8b2680
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.pefa_reports
+  module:
+    - text
+id: node.pefa_reports.body
+field_name: body
+entity_type: node
+bundle: pefa_reports
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
